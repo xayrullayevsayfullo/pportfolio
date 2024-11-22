@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="bg-slate-950 sticky z-50 left-0 top-0">
+        <nav class="flex items-center justify-evenly px-8 py-8 container space-x-8" id="page">
+            <a href="index.html"><h1 class="logo drop-shadow-none font-bold sm:text-4xl text-2xl">PORTFOLIO</h1></a>
+            <ul class=" lg:flex hidden items-center justify-center space-x-14" >
+                <a href="#home" class="link text-lg text-lg font-bold"><li>HOME</li></a>
+                <a href="#aboutMe" class="link text-lg text-lg font-bold"><li>ABOUT ME</li></a>
+                <a href="#skills" class="link text-lg text-lg font-bold"><li>SKILLS</li></a>
+                <a href="#myworks" class="link text-lg text-lg font-bold"><li>MY WORKS</li></a>
+            </ul>
+            <div class="">
+                <div class="hidden modal fixed rounded-lg bg-slate-950  mt-[50px] ml-[-220px] menyu">
+                    <i class="pr-4 flex items-center justify-end pt-4 fa-solid fa-xmark"></i>
+                    <ul class="text2 text-center flex flex-col">
+                        <a href="#home" class="px-10 py-2 textt text-lg text-lg font-bold mt-2"><li>HOME</li></a>
+                        <a href="#aboutMe" class="px-10 py-2 textt text-lg text-lg font-bold"><li>ABOUT ME</li></a>
+                        <a href="#skills" class="px-10 py-2 textt text-lg text-lg font-bold"><li>SKILLS</li></a>
+                        <a href="#myworks" class="px-10 py-2 textt text-lg text-lg font-bold"><li>MY WORKS</li></a>
+                        <a href="" class="px-20 pb-[10px] rounded-b-lg py-2 textt text-lg text-lg font-bold"><li>CONTACT</li></a>
+                    </ul>  
+                </div>
+                <i id="btn" class="hover:text-lime-500 lg:hidden flex text-white text-2xl fa-solid fa-bars"></i>
+            </div>
+
+            <button type="button"  class="button button-1 lg:flex hidden items-center justify-center lg:text-lg text-sm py-2 sm:px-6 px-4 mt-[4px]">CONTACT</button>
+        </nav>
+        <hr class="hr">
+    </header>
+    
+    <section class="sm:py-20 py-10" id="home">
+        <div class="flex items-center justify-center  container">
+            <div class="flex px-2 items-center justify-center flex-col text-center sm:space-y-4 space-y-2 ">
+                <h3></h3>
+                <h1 class="lg:text-5xl sm:text-4xl m:text-2xl text-xl">Hello, It's Me Xayrullayev Sayfullo</h1>
+                <h3 class="lg:text-5xl sm:text-4xl m:text-2xl text-xl ">And I'm a <span>Web-developer. Let’s get know about me closer</span></h3>
+                <p></p>
+                <button class="button  button-1 py-[12px] sm:text-xl text-sm sm:w-[400px] w-[300px] mt-8" type="button">Discover More About Me</button>
+            </div>
+        </div>
+    </section>
+    
+    <section class="bg-black"  id="aboutMe">
+        <div class="container flex items-center justify-evenly md:flex-row flex-col sm:space-x-12 md:gap-14 px-10 ">
+            <img src="sayfull.jpg" alt="" class="image sm:w-[300px] w-[200px] sm:h-[300px] h-250px]">
+            <div class="flex flex-col  text-white max-w-full w-full">
+                <h1 class="text lg:text-5xl text-3xl py-4 md:text-start text-center">About Me</h1>
+                <p class="sm:text-xl text-md md:text-start text-center">Hi! I’m Xayrullayev Sayfullo, and I’m a developer who has passion for building clean web applications with intuitive functionality. I enjoy the process of turning ideas into reality using creative solutions. I’m always curious about learning new skills, tools, and concepts.</p>
+                <div class="flex items-center md:justify-start justify-center"><button class="button button-1 sm:mb-0 mb-4 lg:text-lg text-sm py-2 md:px-6 px-4" type="button">Hire Me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+     <section id="skills">
+        <div class="flex px-10 items-center justify-evenly lg:flex-row flex-col py-10 pt-20 container">
+            <div class="max-w-full w-full">
+                <h1 class="lg:text-5xl sm:text-3xl text-2xl py-4 md:text-start text-center">What My Programming
+                    <span class="text">Skills</span> Included?</h1>
+                    <p class="sm:text-xl text-md md:text-start text-center">I develop simple, intuitive and responsive user interface that helps users get things done with less effort and time with those technologies.</p>
+                    <div class="flex items-center lg:justify-start justify-center"><button class="button button-1 lg:text-lg text-sm py-2 md:px-6 px-4 mt-4 " type="button">Hire Me</button> </div>
+                </div>
+            <div class="grid grid-cols-3 gap-4 lg:pt-0 pt-10">
+                <img class="p-4 w-24 h-20 rounded-lg bg-slate-900" src="assets/svg/html__icons.svg" alt="html__icons">
+                <img class="p-4 w-24 h-20 rounded-lg bg-slate-900" src="assets/svg/css__icons.svg" alt="css__icons">
+                <img class="p-4 w-24 h-20 rounded-lg bg-slate-900" src="assets/svg/logos_javascript.svg" alt="Javascript">
+                <img class="p-4 w-24 h-20 rounded-lg bg-slate-900" src="assets/svg/bxl_tailwind-css.svg" alt="tailwindcss">
+                <img class="p-4 w-24 h-20 rounded-lg bg-slate-900" src="assets/svg/logos_figma.svg" alt="figma__icons">
+                <img class="p-4 w-24 h-20 rounded-lg bg-slate-900" src="assets/svg/github__icons.svg" alt="github__icons">
+            </div>
+        </div>
+    </section>
+    <section class="py-20" id="myworks">
+        <div class="flex flex-col justify-center items-center container">
+            <div class="">
+                <span class="text text-4xl">My works</span>
+                </div>
+            <div class="flex items-center justify-center  gap-12 text-black [font-weight:600;] py-10 text-2xl">
+                <button id="allButton" type="button" class="link link1 text-3xl">ALL</button>
+                <button id="cssButton" type="button" class="link link1 text-3xl">CSS</button>
+                <button id="jsButton" type="button" class="link link1  text-3xl">JS</button>
+            </div>
+            <div class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8">
+                <a target="_blank" class="card grid-item" id="css" href="https://xayrullayevsayfullo.github.io/airfolio_/">
+                    <div class="space-y-2">
+                        <div><img class="sm:h-[220px] h-[180px] sm:w-[400px] w-[350px] " src="assets/img/airfolio.png" alt=""></div>
+                    </div>
+                </a>
+                <a target="_blank" class="card grid-item" id="css" href="https://xayrullayevsayfullo.github.io/StroyKontrol/">
+                    <div class="space-y-2">
+                        <div><img class="sm:h-[220px] h-[180px] sm:w-[400px] w-[350px]" src="assets/img/stroy.jpg" alt=""></div>
+                    </div>
+                </a>
+                <a target="_blank" class="card grid-item" id="css" href="https://xayrullayevsayfullo.github.io/P.ai/">
+                    <div class="space-y-2">
+                        <div><img class="sm:h-[220px] h-[180px] sm:w-[400px] w-[350px]" src="assets/img/P.ai" alt=""></div>
+                    </div>
+                </a>
+                <a target="_blank" class="card grid-item" id="css" href="https://xayrullayevsayfullo.github.io/Restaurant/">
+                    <div class="space-y-2">
+                        <div><img class="sm:h-[220px] h-[180px] sm:w-[400px] w-[350px]" src="assets/img/food.jpg" alt=""></div>
+                    </div>
+                </a>
+                <a target="_blank" class="card grid-item" id="css" href="https://xayrullayevsayfullo.github.io/California/">
+                    <div class="space-y-2">
+                        <div><img class="sm:h-[220px] h-[180px] sm:w-[400px] w-[350px]" src="assets/img/california.jpg" alt=""></div>
+                    </div>
+                </a>
+                <a target="_blank" class="card grid-item" id="js" href="https://xayrullayevsayfullo.github.io/random_color/">
+                    <div class="space-y-2">
+                        <div><img class="sm:h-[220px] h-[180px] sm:w-[400px] w-[350px]" src="assets/img/randomcolor.jpg" alt=""></div>
+                    </div>
+                </a>
+                <a target="_blank" class="card grid-item" id="js" href="https://xayrullayevsayfullo.github.io/rasm/">
+                    <div class="space-y-2">
+                        <div><img class="sm:h-[220px] h-[180px] sm:w-[400px] w-[350px]" src="assets/img/o'yin.jpg" alt=""></div>
+                    </div>
+                </a>
+                <a target="_blank" class="card grid-item" id="css" href="https://xayrullayevsayfullo.github.io/avtobuss/">
+                    <div class="space-y-2">
+                        <div><img class="sm:h-[220px] h-[180px] sm:w-[400px] w-[350px]" src="assets/img/avtobus.jpg" alt=""></div>
+                    </div>
+                </a>
+                <a target="_blank" class="card grid-item" id="css" href="https://xayrullayevsayfullo.github.io/vilka/">
+                    <div class="space-y-2">
+                        <div><img class="sm:h-[220px] h-[180px] sm:w-[400px] w-[350px]" src="assets/img/vilka.jpg" alt=""></div>
+                    </div>
+                </a>
+                <a target="_blank" class="card grid-item" id="css" href="https://xayrullayevsayfullo.github.io/educattion/">
+                    <div class="space-y-2">
+                        <div><img class="sm:h-[220px] h-[180px] sm:w-[400px] w-[350px]" src="assets/img/education.jpg" alt=""></div>
+                    </div>
+                </a>
+                <a target="_blank" class="card grid-item" id="js" href="https://xayrullayevsayfullo.github.io/avtoaksessuar/">
+                    <div class="space-y-2">
+                        <div><img class="sm:h-[220px] h-[180px] sm:w-[400px] w-[350px]" src="assets/img/avtoaksessuarr.jpg" alt=""></div>
+                    </div>
+                </a>
+                <a target="_blank" class="card grid-item" id="js" href="https://xayrullayevsayfullo.github.io/kalkulyatorrr/">
+                    <div class="space-y-2">
+                        <div><img class="sm:h-[220px] h-[180px] sm:w-[400px] w-[350px]" src="assets/img/kalkulyator.jpg" alt=""></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer py-10">
+        <div class="container">
+            <div class="grid lg:grid-cols-2 grid-row gap-6 px-10">
+                <div><a href="index.html"><h1 class="logo text-4xl lg:text-start text-center font-bold">PORTFOLIO</h1></a></div>
+                <div class="text-white grid md:grid-cols-4 grid-cols-2 md:text-start text-center gap-4">
+                    <div class="space-y-4">
+                        <h1 class="footer__link text-xl"><a href="#page">PAGE</a></h1>
+                        <ul>
+                            <a href="#home"><li>Home</li></a>
+                            <a href="#aboutMe"><li>About Me</li></a>
+                            <a href="#skills"><li>Skills</li></a>
+                            <a href="#myworks"><li>My Works</li></a>
+                        </ul>
+                    </div>
+                    <div class="space-y-4">
+                        <h1 class="footer__link text-xl"><a href="#skills">SKILLS</a></h1>
+                        <ul>
+                            <a href="#!"><li>HTML</li></a>
+                            <a href="#!"><li>CSS</li></a>
+                            <a href="#!"><li>JavaScript</li></a>
+                            <a href="#!"><li>TailwindCss</li></a>
+                            <a href="#!"><li>Figma</li></a>
+                            <a href="#!"><li>GitHub</li></a>
+                        </ul>
+                    </div>
+                    <div class="space-y-4">
+                        <h1 class="footer__link text-xl"><a href="#myworks">MY WORKS</a></h1>
+                        <ul>
+                            <a href="#allButton"><li>All</li></a>
+                            <a href="#cssButton"><li>CSS</li></a>
+                            <a href="#jsButton"><li>JavaScript</li></a>
+                        </ul>
+                    </div>
+                    <div class="space-y-4" id="myaccount">
+                        <h1 class="footer__link text-xl"><a href="#myaccount">MY ACCOUNT</a></h1>
+                        <ul>
+                            <a href="https://t.me/Web_Developer_08"><li><i class="fa-brands fa-telegram"></i> <span>Telegram</span></li></a>
+                            <a href="https://www.instagram.com/sayfullo_0317_"><li><i class="fa-brands fa-instagram"></i> <span>Instagram</span></li></a>
+                            <a href=""><li><i class="fa-brands fa-github"></i> <span>GitHub</span></li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

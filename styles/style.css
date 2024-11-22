@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(9 9 11);
+  color:white;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0px auto;
+}
+.menyu {
+  box-shadow: 0 0 5px 0 rgb(102, 255, 0) inset, 0 0 5px 3px rgb(102, 255, 0);
+  border: 0.1px solid rgb(102, 255, 0);
+}
+.textt:hover {
+  background-color: rgb(102, 255, 0);
+  color: rgb(3 7 18);
+}
+.link  {
+    background-image: linear-gradient(
+      to right,
+      rgb(102, 255, 0),
+      rgb(102, 255, 0) 50%,
+      white 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+ 
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .link:before{
+    content: '';
+    background: rgb(102, 255, 0);
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .link:hover {
+   background-position: 0;
+  }
+  
+  .link:hover::before{
+    width: 100%;
+  }
+
+hr {
+    background-color: rgb(102, 255, 0);
+
+    border: 0.1px solid rgb(102, 255, 0);
+}
+.logo {
+    color:rgb(102, 255, 0);
+}
+.button {
+    width: 170px;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .button-1 {
+    background-color: transparent;
+    border: 3px solid rgb(102, 255, 0);
+    border-radius: 50px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: rgb(102, 255, 0);
+  }
+  .button-1:hover {
+    box-shadow: 0 0 10px 0 rgb(102, 255, 0) inset, 0 0 20px 2px rgb(102, 255, 0);
+    border: 3px solid rgb(102, 255, 0);
+  }
+.card {
+  border: 3px solid black;
+}
+.card:hover {
+  border: 3px solid rgb(102, 255, 0);
+  box-shadow: 0 0 10px 0 rgb(102, 255, 0) inset, 0 0 20px 2px rgb(102, 255, 0);
+}
+.section2__box {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    
+    p {
+        padding: 20px 0px;
+    }
+    button {
+font-size: 20px;
+width: 35%;
+padding: 20px;
+    }
+}
+.footer__link {
+    color: rgb(102, 255, 0);
+}
+.text {
+    color: rgb(102, 255, 0);
+}
